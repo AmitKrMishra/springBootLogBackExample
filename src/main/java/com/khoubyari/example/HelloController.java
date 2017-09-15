@@ -16,9 +16,7 @@ public class HelloController {
     public String index() {
     	
     	   log.debug("You are in main");  
-    	   
     	   log.info("You are in main");
-    	 
         return "Greetings from Spring Boot!";
     }
     
